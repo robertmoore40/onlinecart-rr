@@ -18,3 +18,6 @@ mongoose.connect(
     useUnifiedTopology: true,
   }
 );
+
+const Product = mongoose.model(
+    "products",
