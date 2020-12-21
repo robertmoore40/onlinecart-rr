@@ -21,3 +21,7 @@ mongoose.connect(
 
 const Product = mongoose.model(
     "products",
+
+    new mongoose.Schema({
+        _id: { type: String, default: shortid.generate },
+        title: String,
