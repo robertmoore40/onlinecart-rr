@@ -6,3 +6,6 @@ import { connect } from "react-redux";
 
 import Modal from "react-modal";
 import Zoom from "react-reveal/Zoom";
+
+import { removeFromCart } from "../actions/cartActions";
+import { createOrder, clearOrder } from "../actions/orderActions";
