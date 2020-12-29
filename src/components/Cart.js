@@ -9,3 +9,6 @@ import Zoom from "react-reveal/Zoom";
 
 import { removeFromCart } from "../actions/cartActions";
 import { createOrder, clearOrder } from "../actions/orderActions";
+
+class Cart extends Component {
+    constructor(props) {
