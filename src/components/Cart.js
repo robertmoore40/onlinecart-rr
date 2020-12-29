@@ -25,3 +25,7 @@ class Cart extends Component {
   };
   createOrder = (e) => {
     e.preventDefault();
+    const order = {
+        name: this.state.name,
+        email: this.state.email,
+        address: this.state.address,
