@@ -62,3 +62,7 @@ class Cart extends Component {
                     <div>Name:</div>
                     <div>{order.name}</div>
                   </li>
+                  <li>
+                    <div>Email:</div>
+                    <div>{order.email}</div>
+                  </li>
