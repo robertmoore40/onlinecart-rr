@@ -74,3 +74,7 @@ class Cart extends Component {
                     <div>Date:</div>
                     <div>{order.createdAt}</div>
                   </li>
+                  <li>
+                    <div>Total:</div>
+                    <div>{formatCurrency(order.total)}</div>
+                  </li>
