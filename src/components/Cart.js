@@ -48,3 +48,6 @@ class Cart extends Component {
             You have {cartItems.length} in the cart{" "}
           </div>
         )}
+          {order && (
+          <Modal isOpen={true} onRequestClose={this.closeModal}>
+            <Zoom></Zoom>
