@@ -20,3 +20,6 @@ class Cart extends Component {
           showCheckout: false,
         };
       }
+       handleInput = (e) => {
+    this.setState({ [e.target.name]: e.target.value });
+  };
