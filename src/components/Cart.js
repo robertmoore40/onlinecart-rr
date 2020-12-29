@@ -29,3 +29,6 @@ class Cart extends Component {
         name: this.state.name,
         email: this.state.email,
         address: this.state.address,
+        cartItems: this.props.cartItems,
+        total: this.props.cartItems.reduce((a, c) => a + c.price * c.count, 0),
+      };
