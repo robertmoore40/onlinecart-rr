@@ -89,3 +89,7 @@ class Cart extends Component {
                          </div>
                        </li>
                      </ul>
+                     </div>
+            </Zoom>
+          </Modal>
+        )}
