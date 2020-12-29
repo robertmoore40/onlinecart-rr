@@ -51,3 +51,6 @@ class Cart extends Component {
           {order && (
           <Modal isOpen={true} onRequestClose={this.closeModal}>
             <Zoom></Zoom>
+            <button className="close-modal" onClick={this.closeModal}>
+                x
+              </button>
