@@ -85,3 +85,7 @@ class Cart extends Component {
                         <div>
                           {x.count} {" x "} {x.title}
                         </div>
+                         ))}
+                         </div>
+                       </li>
+                     </ul>
