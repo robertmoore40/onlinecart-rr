@@ -34,3 +34,6 @@ class Cart extends Component {
       };
       this.props.createOrder(order);
     };
+    closeModal = () => {
+        this.props.clearOrder();
+      };
