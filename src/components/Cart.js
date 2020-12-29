@@ -12,3 +12,11 @@ import { createOrder, clearOrder } from "../actions/orderActions";
 
 class Cart extends Component {
     constructor(props) {
+        super(props);
+        this.state = {
+          name: "",
+          email: "",
+          address: "",
+          showCheckout: false,
+        };
+      }
