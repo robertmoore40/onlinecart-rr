@@ -32,3 +32,5 @@ class Cart extends Component {
         cartItems: this.props.cartItems,
         total: this.props.cartItems.reduce((a, c) => a + c.price * c.count, 0),
       };
+      this.props.createOrder(order);
+    };
