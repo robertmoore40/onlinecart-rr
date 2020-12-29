@@ -70,3 +70,7 @@ class Cart extends Component {
                     <div>Address:</div>
                     <div>{order.address}</div>
                   </li>
+                  <li>
+                    <div>Date:</div>
+                    <div>{order.createdAt}</div>
+                  </li>
