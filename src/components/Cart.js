@@ -105,3 +105,8 @@ class Cart extends Component {
                     <div>
                       <div>{item.title}</div>
                       <div className="right">
+                      {formatCurrency(item.price)} x {item.count}{" "}
+                        <button
+                          className="button"
+                          onClick={() => this.props.removeFromCart(item)}
+                        >
