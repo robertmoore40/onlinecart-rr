@@ -176,3 +176,7 @@ class Cart extends Component {
                           <button className="button primary" type="submit">
                             Checkout
                           </button>
+                          </li>
+                      </ul>
+                    </form>
+                  </div>
