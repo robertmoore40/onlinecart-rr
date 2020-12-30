@@ -123,3 +123,9 @@ class Cart extends Component {
             <div>
               <div className="cart">
                 <div className="total">
+                <div>
+                    Total:{" "}
+                    {formatCurrency(
+                      cartItems.reduce((a, c) => a + c.price * c.count, 0)
+                    )}
+                  </div>
