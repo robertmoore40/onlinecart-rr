@@ -162,3 +162,7 @@ class Cart extends Component {
                            required
                            onChange={this.handleInput}
                          ></input>
+                          </li>
+                        <li>
+                          <label>Address</label>
+                          <input
