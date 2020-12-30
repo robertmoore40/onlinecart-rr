@@ -93,3 +93,6 @@ class Cart extends Component {
             </Zoom>
           </Modal>
         )}
+        <div>
+          <div className="cart">
+            <Fade left cascade></Fade>
