@@ -148,3 +148,8 @@ class Cart extends Component {
                       <li>
                           <label>Email</label>
                           <input
+                            name="email"
+                            type="email"
+                            required
+                            onChange={this.handleInput}
+                          ></input>
