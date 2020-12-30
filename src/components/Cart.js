@@ -99,3 +99,6 @@ class Cart extends Component {
             <ul className="cart-items">
                 {cartItems.map((item) => (
                   <li key={item._id}>
+                      <div>
+                      <img src={item.image} alt={item.title}></img>
+                    </div>
