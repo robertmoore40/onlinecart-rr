@@ -96,3 +96,6 @@ class Cart extends Component {
         <div>
           <div className="cart">
             <Fade left cascade></Fade>
+            <ul className="cart-items">
+                {cartItems.map((item) => (
+                  <li key={item._id}>
