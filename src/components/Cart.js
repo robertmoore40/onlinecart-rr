@@ -133,3 +133,8 @@ class Cart extends Component {
                     onClick={() => {
                       this.setState({ showCheckout: true });
                     }}
+                    className="button primary"
+                    >
+                      Proceed
+                    </button>
+                  </div>
