@@ -145,3 +145,6 @@ class Cart extends Component {
 <div className="cart">
                     <form onSubmit={this.createOrder}>
                       <ul className="form-container">
+                      <li>
+                          <label>Email</label>
+                          <input
