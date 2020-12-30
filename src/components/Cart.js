@@ -119,3 +119,7 @@ class Cart extends Component {
               </ul>
             </Fade>
           </div>
+          {cartItems.length !== 0 && (
+            <div>
+              <div className="cart">
+                <div className="total">
