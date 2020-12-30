@@ -114,3 +114,8 @@ class Cart extends Component {
                         </button>
                       </div>
                     </div>
+                    </li>
+                ))}
+              </ul>
+            </Fade>
+          </div>
