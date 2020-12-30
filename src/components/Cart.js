@@ -138,3 +138,6 @@ class Cart extends Component {
                       Proceed
                     </button>
                   </div>
+                  </div>
+              {this.state.showCheckout && (
+                <Fade right cascade>
