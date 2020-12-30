@@ -180,3 +180,7 @@ class Cart extends Component {
                       </ul>
                     </form>
                   </div>
+                  </Fade>
+              )}
+            </div>
+          )}
