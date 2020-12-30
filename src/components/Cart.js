@@ -141,3 +141,7 @@ class Cart extends Component {
                   </div>
               {this.state.showCheckout && (
                 <Fade right cascade>
+
+<div className="cart">
+                    <form onSubmit={this.createOrder}>
+                      <ul className="form-container">
