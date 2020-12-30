@@ -129,3 +129,7 @@ class Cart extends Component {
                       cartItems.reduce((a, c) => a + c.price * c.count, 0)
                     )}
                   </div>
+                  <button
+                    onClick={() => {
+                      this.setState({ showCheckout: true });
+                    }}
