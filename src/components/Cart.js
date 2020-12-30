@@ -102,3 +102,6 @@ class Cart extends Component {
                       <div>
                       <img src={item.image} alt={item.title}></img>
                     </div>
+                    <div>
+                      <div>{item.title}</div>
+                      <div className="right">
