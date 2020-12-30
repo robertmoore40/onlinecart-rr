@@ -171,3 +171,8 @@ class Cart extends Component {
                            required
                            onChange={this.handleInput}
                          ></input>
+                          </li>
+                        <li>
+                          <button className="button primary" type="submit">
+                            Checkout
+                          </button>
