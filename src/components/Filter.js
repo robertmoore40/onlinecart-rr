@@ -11,3 +11,7 @@ class Filter extends Component {
               <div className="filter-result">
           {this.props.filteredProducts.length} Products
         </div>
+        <div className="filter-sort">
+          Order{" "}
+          <select
+            value={this.props.sort}
