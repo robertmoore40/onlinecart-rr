@@ -54,3 +54,9 @@ export default connect(
     sort: state.products.sort,
     products: state.products.items,
     filteredProducts: state.products.filteredItems,
+}),
+{
+  filterProducts,
+  sortProducts,
+}
+)(Filter);
