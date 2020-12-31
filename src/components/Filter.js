@@ -35,3 +35,6 @@ class Filter extends Component {
               this.props.filterProducts(this.props.products, e.target.value)
             }
           ></select>
+           <option value="">ALL</option>
+            <option value="XS">XS</option>
+            <option value="S">S</option>
