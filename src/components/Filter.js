@@ -43,3 +43,6 @@ class Filter extends Component {
             <option value="XL">XL</option>
             <option value="XXL">XXL</option>
           </select>
+          </div>
+      </div>
+    );
