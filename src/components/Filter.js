@@ -8,3 +8,6 @@ class Filter extends Component {
         <div>Loading...</div>
         ) : (
           <div className="filter">
+              <div className="filter-result">
+          {this.props.filteredProducts.length} Products
+        </div>
