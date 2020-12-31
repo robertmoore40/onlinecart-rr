@@ -38,3 +38,5 @@ class Filter extends Component {
            <option value="">ALL</option>
             <option value="XS">XS</option>
             <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
