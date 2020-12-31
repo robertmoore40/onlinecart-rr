@@ -15,3 +15,7 @@ class Filter extends Component {
           Order{" "}
           <select
             value={this.props.sort}
+            onChange={(e) =>
+                this.props.sortProducts(
+                  this.props.filteredProducts,
+                  e.target.value
