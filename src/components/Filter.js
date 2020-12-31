@@ -19,3 +19,6 @@ class Filter extends Component {
                 this.props.sortProducts(
                   this.props.filteredProducts,
                   e.target.value
+                  )
+                }
+              >
