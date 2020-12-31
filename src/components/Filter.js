@@ -22,3 +22,6 @@ class Filter extends Component {
                   )
                 }
               >
+                    <option value="latest">Latest</option>
+            <option value="lowest">Lowest</option>
+            <option value="highest">Highest</option>
