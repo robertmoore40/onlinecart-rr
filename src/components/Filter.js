@@ -46,3 +46,7 @@ class Filter extends Component {
           </div>
       </div>
     );
+}
+}
+export default connect(
+  (state) => ({
