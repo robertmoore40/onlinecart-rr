@@ -11,3 +11,6 @@ class Orders extends Component {
     }
     render() {
       const { orders } = this.props;
+      return !orders ? (
+        <div>Orders</div>
+      ) : (
