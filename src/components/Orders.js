@@ -49,3 +49,6 @@ class Orders extends Component {
                   </tbody>
         </table>
       </div>
+       );
+    }
+  }
