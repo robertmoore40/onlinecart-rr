@@ -42,3 +42,7 @@ class Orders extends Component {
                     <div>
                       {item.count} {" x "} {item.title}
                     </div>
+                    ))}
+                    </td>
+                  </tr>
+                ))}
