@@ -57,3 +57,7 @@ class Orders extends Component {
     (state) => ({
       orders: state.order.orders,
     }),
+    {
+        fetchOrders,
+      }
+    )(Orders);
