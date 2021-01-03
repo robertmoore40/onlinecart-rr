@@ -46,3 +46,6 @@ class Orders extends Component {
                     </td>
                   </tr>
                 ))}
+                  </tbody>
+        </table>
+      </div>
