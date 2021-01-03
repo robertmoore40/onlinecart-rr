@@ -8,3 +8,6 @@ import formatCurrency from "../util";
 class Orders extends Component {
     componentDidMount() {
       this.props.fetchOrders();
+    }
+    render() {
+      const { orders } = this.props;
