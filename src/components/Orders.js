@@ -28,3 +28,7 @@ class Orders extends Component {
               <th>ITEMS</th>
             </tr>
           </thead>
+          <tbody>
+            {orders.map((order) => (
+              <tr>
+                <td>{order._id}</td>
