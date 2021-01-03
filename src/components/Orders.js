@@ -23,3 +23,8 @@ class Orders extends Component {
               <th>DATE</th>
               <th>TOTAL</th>
               <th>NAME</th>
+              <th>EMAIL</th>
+              <th>ADDRESS</th>
+              <th>ITEMS</th>
+            </tr>
+          </thead>
