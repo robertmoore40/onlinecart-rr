@@ -18,3 +18,8 @@ class Orders extends Component {
         <h2>Orders</h2>
         <table>
           <thead>
+          <tr>
+              <th>ID</th>
+              <th>DATE</th>
+              <th>TOTAL</th>
+              <th>NAME</th>
