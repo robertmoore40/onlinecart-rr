@@ -35,3 +35,6 @@ class Orders extends Component {
                 <td>{order.createdAt}</td>
                 <td> {formatCurrency(order.total)}</td>
                 <td>{order.name}</td>
+                <td>{order.email}</td>
+                <td>{order.address}</td>
+                <td>
