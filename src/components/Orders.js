@@ -38,3 +38,7 @@ class Orders extends Component {
                 <td>{order.email}</td>
                 <td>{order.address}</td>
                 <td>
+                {order.cartItems.map((item) => (
+                    <div>
+                      {item.count} {" x "} {item.title}
+                    </div>
