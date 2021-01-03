@@ -14,3 +14,7 @@ class Orders extends Component {
       return !orders ? (
         <div>Orders</div>
       ) : (
+        <div className="orders">
+        <h2>Orders</h2>
+        <table>
+          <thead>
