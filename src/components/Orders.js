@@ -32,3 +32,6 @@ class Orders extends Component {
             {orders.map((order) => (
               <tr>
                 <td>{order._id}</td>
+                <td>{order.createdAt}</td>
+                <td> {formatCurrency(order.total)}</td>
+                <td>{order.name}</td>
