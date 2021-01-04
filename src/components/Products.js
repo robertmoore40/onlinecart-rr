@@ -55,3 +55,8 @@ class Products extends Component {
                       </button>
                     </div>
                   </div>
+                    </li>
+                    ))}
+                  </ul>
+                )}
+              </Fade>
