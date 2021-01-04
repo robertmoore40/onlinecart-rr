@@ -37,3 +37,8 @@ class Products extends Component {
             <ul className="products">
             {this.props.products.map((product) => (
               <li key={product._id}>
+                    <div className="product">
+                    <a
+                      href={"#" + product._id}
+                      onClick={() => this.openModal(product)}
+                    ></a>
