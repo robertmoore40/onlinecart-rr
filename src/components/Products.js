@@ -91,3 +91,7 @@ class Products extends Component {
                         this.closeModal();
                       }}
                     >
+                         Add To Cart
+                    </button>
+                  </div>
+                </div>
