@@ -13,3 +13,7 @@ import { addToCart } from "../actions/cartActions";
 class Products extends Component {
     constructor(props) {
       super(props);
+      this.state = {
+        product: null,
+      };
+    }
