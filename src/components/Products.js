@@ -42,3 +42,6 @@ class Products extends Component {
                       href={"#" + product._id}
                       onClick={() => this.openModal(product)}
                     ></a>
+                     <img src={product.image} alt={product.title}></img>
+                      <p>{product.title}</p>
+                    </a>
