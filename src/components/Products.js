@@ -95,3 +95,7 @@ class Products extends Component {
                     </button>
                   </div>
                 </div>
+                </div>
+            </Zoom>
+          </Modal>
+        )}
