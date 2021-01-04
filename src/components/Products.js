@@ -26,3 +26,6 @@ class Products extends Component {
       closeModal = () => {
         this.setState({ product: null });
       };
+      render() {
+        const { product } = this.state;
+        return (
