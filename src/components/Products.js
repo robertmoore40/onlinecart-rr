@@ -60,3 +60,6 @@ class Products extends Component {
               </ul>
             )}
           </Fade>
+          {product && (
+          <Modal isOpen={true} onRequestClose={this.closeModal}>
+            <Zoom>
