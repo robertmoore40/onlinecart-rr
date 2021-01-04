@@ -34,3 +34,6 @@ class Products extends Component {
           {!this.props.products ? (
             <div>Loading...</div>
           ) : (
+            <ul className="products">
+            {this.props.products.map((product) => (
+              <li key={product._id}>
