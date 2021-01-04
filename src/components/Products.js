@@ -80,3 +80,6 @@ class Products extends Component {
                         {" "}
                         <button className="button">{x}</button>
                       </span>
+                       ))}
+                       </p>
+                       <div className="product-price">
