@@ -23,3 +23,6 @@ class Products extends Component {
       openModal = (product) => {
         this.setState({ product });
       };
+      closeModal = () => {
+        this.setState({ product: null });
+      };
