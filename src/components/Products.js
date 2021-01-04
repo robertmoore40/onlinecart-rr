@@ -20,3 +20,6 @@ class Products extends Component {
     componentDidMount() {
         this.props.fetchProducts();
       }
+      openModal = (product) => {
+        this.setState({ product });
+      };
