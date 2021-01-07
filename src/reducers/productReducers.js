@@ -9,3 +9,6 @@ export const productsReducer = (state = {}, action) => {
         case FILTER_PRODUCTS_BY_SIZE:
             return {
               ...state,
+              size: action.payload.size,
+              filteredItems: action.payload.items,
+            };
