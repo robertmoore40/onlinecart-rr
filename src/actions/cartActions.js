@@ -18,3 +18,6 @@ export const addToCart = (product) => (dispatch, getState) => {
           });
           localStorage.setItem("cartItems", JSON.stringify(cartItems));
         };
+
+        export const removeFromCart = (product) => (dispatch, getState) => {
+            const cartItems = getState()
