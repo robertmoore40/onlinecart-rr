@@ -6,3 +6,6 @@ import {
 
 export const productsReducer = (state = {}, action) => {
     switch (action.type) {
+        case FILTER_PRODUCTS_BY_SIZE:
+            return {
+              ...state,
