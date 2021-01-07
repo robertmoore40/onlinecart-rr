@@ -20,3 +20,7 @@ export const productsReducer = (state = {}, action) => {
       };
       case FETCH_PRODUCTS:
         return { items: action.payload, filteredItems: action.payload };
+        default:
+            return state;
+        }
+      };
