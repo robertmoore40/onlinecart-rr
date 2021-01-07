@@ -18,3 +18,5 @@ export const productsReducer = (state = {}, action) => {
         sort: action.payload.sort,
         filteredItems: action.payload.items,
       };
+      case FETCH_PRODUCTS:
+        return { items: action.payload, filteredItems: action.payload };
