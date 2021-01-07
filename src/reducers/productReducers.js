@@ -15,3 +15,6 @@ export const productsReducer = (state = {}, action) => {
             case ORDER_PRODUCTS_BY_PRICE:
       return {
         ...state,
+        sort: action.payload.sort,
+        filteredItems: action.payload.items,
+      };
