@@ -8,3 +8,7 @@ export const addToCart = (product) => (dispatch, getState) => {
             alreadyExists = true;
             x.count++;
           }
+        });
+        if (!alreadyExists) {
+          cartItems.push({ ...product, count: 1 });
+        }
