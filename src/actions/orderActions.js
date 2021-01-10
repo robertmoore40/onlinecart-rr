@@ -22,3 +22,7 @@ export const clearOrder = () => (dispatch) => {
   export const fetchOrders = () => (dispatch) => {
     fetch("/api/orders")
       .then((res) => res.json())
+      .then((data) => {
+        dispatch({ type: FETCH_ORDERS, payload: data });
+      });
+  };
