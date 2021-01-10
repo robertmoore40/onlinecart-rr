@@ -14,3 +14,7 @@ export const createOrder = (order) => (dispatch) => {
       dispatch({ type: CLEAR_CART });
     });
 };
+
+export const clearOrder = () => (dispatch) => {
+    dispatch({ type: CLEAR_ORDER });
+  };
