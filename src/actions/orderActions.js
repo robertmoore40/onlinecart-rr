@@ -5,3 +5,7 @@ export const createOrder = (order) => (dispatch) => {
         headers: {
           "Content-Type": "application/json",
         },
+        body: JSON.stringify(order),
+    })
+      .then((res) => res.json())
+      .then((data) => {
