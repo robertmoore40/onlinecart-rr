@@ -6,3 +6,7 @@ export default class AdminScreen extends Component {
         return (
             <div>
               <Orders />
+              </div>
+    );
+  }
+}
