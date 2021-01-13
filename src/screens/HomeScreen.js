@@ -14,3 +14,5 @@ export default class HomeScreen extends Component {
           </div>
           <div className="sidebar">
             <Cart />
+            </div>
+        </div>
