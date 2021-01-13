@@ -8,3 +8,5 @@ export default class HomeScreen extends Component {
         return (
             <div>
               <div className="content">
+              <div className="main">
+            <Filter></Filter>
