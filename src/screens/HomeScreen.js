@@ -16,3 +16,7 @@ export default class HomeScreen extends Component {
             <Cart />
             </div>
         </div>
+         </div>
+    );
+  }
+}
