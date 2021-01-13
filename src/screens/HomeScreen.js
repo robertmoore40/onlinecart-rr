@@ -10,3 +10,5 @@ export default class HomeScreen extends Component {
               <div className="content">
               <div className="main">
             <Filter></Filter>
+            <Products></Products>
+          </div>
