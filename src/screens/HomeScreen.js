@@ -5,3 +5,6 @@ import Cart from "../components/Cart";
 
 export default class HomeScreen extends Component {
     render() {
+        return (
+            <div>
+              <div className="content">
