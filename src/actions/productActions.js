@@ -11,3 +11,6 @@ export const fetchProducts = () => async (dispatch) => {
     payload: data,
   });
 };
+
+export const filterProducts = (products, size) => (dispatch) => {
+    dispatch({
