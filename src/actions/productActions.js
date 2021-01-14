@@ -21,3 +21,6 @@ export const filterProducts = (products, size) => (dispatch) => {
           size === ""
             ? products
             : products.filter((x) => x.availableSizes.indexOf(size) >= 0),
+        },
+    });
+  };
