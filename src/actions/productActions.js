@@ -33,3 +33,9 @@ export const filterProducts = (products, size) => (dispatch) => {
     } else {
         sortedProducts.sort((a, b) =>
           sort === "lowest"
+          ? a.price > b.price
+          ? 1
+          : -1
+        : a.price > b.price
+        ? -1
+        : 1
