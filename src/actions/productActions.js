@@ -42,3 +42,6 @@ export const filterProducts = (products, size) => (dispatch) => {
         );
     }
     console.log(sortedProducts);
+    dispatch({
+        type: ORDER_PRODUCTS_BY_PRICE,
+        payload: {
