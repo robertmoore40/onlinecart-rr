@@ -47,3 +47,6 @@ export const filterProducts = (products, size) => (dispatch) => {
         payload: {
             sort: sort,
             items: sortedProducts,
+        },
+    });
+  };
