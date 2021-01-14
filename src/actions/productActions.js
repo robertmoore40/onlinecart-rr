@@ -17,3 +17,7 @@ export const filterProducts = (products, size) => (dispatch) => {
         type: FILTER_PRODUCTS_BY_SIZE,
         payload: {
           size: size,
+          items:
+          size === ""
+            ? products
+            : products.filter((x) => x.availableSizes.indexOf(size) >= 0),
