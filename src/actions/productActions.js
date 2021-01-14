@@ -39,3 +39,6 @@ export const filterProducts = (products, size) => (dispatch) => {
         : a.price > b.price
         ? -1
         : 1
+        );
+    }
+    console.log(sortedProducts);
