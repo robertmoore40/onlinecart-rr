@@ -17,3 +17,7 @@ const store = createStore(
     order: orderReducer,
 }),
 initialState,
+
+composeEnhancer(applyMiddleware(thunk))
+);
+export default store;
