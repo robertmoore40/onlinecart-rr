@@ -13,3 +13,7 @@ const store = createStore(
     combineReducers({
         products: productsReducer,
     cart: cartReducer,
+
+    order: orderReducer,
+}),
+initialState,
