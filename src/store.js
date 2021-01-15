@@ -5,3 +5,6 @@ import { productsReducer } from "./reducers/productReducers";
 import { cartReducer } from "./reducers/cartReducers";
 
 import { orderReducer } from "./reducers/orderReducers";
+
+const initialState = {};
+const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
