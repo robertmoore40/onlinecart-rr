@@ -10,3 +10,6 @@ import AdminScreen from "./screens/AdminScreen";
 class App extends React.Component {
   render() {
     return (
+      <Provider store={store}>
+      <BrowserRouter>
+        <div className="grid-container">
