@@ -8,20 +8,25 @@ import HomeScreen from "./screens/HomeScreen";
 import AdminScreen from "./screens/AdminScreen";
 
 class App extends React.Component {
-  render() {
-    return (
-      <Provider store={store}>
-      <BrowserRouter>
-        <div className="grid-container">
-        <header>
-              <Link to="/">React Shopping Cart</Link>
-              <Link to="/admin">Admin</Link>
-            </header>
-            <main>
-              <Route path="/admin" component={AdminScreen} />
-              <Route path="/" component={HomeScreen} exact />
-            </main>
-            <footer>All right is reserved.</footer>
-          </div>
-        </BrowserRouter>
-      </Provider>
+  class App extends React.Component {
+    render() {
+      return (
+        <Provider store={store}>
+          <BrowserRouter>
+            <div className="grid-container">
+              <header>
+                <Link to="/">React Shopping Cart</Link>
+                <Link to="/admin">Admin</Link>
+              </header>
+              <main>
+                <Route path="/admin" component={AdminScreen} />
+                <Route path="/" component={HomeScreen} exact />
+              </main>
+              <footer></footer>
+            </div>
+          </BrowserRouter>
+        </Provider>
+      );
+    }
+  }
+  
