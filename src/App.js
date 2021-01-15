@@ -6,3 +6,7 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 
 import HomeScreen from "./screens/HomeScreen";
 import AdminScreen from "./screens/AdminScreen";
+
+class App extends React.Component {
+  render() {
+    return (
