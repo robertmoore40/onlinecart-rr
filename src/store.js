@@ -3,3 +3,5 @@ import thunk from "redux-thunk";
 
 import { productsReducer } from "./reducers/productReducers";
 import { cartReducer } from "./reducers/cartReducers";
+
+import { orderReducer } from "./reducers/orderReducers";
