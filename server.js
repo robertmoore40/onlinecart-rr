@@ -57,3 +57,6 @@ const Product = mongoose.model(
             default: shortid.generate,
       },
       email: String,
+      name: String,
+      address: String,
+      total: Number,
