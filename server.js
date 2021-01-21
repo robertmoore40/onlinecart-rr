@@ -45,3 +45,5 @@ const Product = mongoose.model(
 
     app.delete("/api/products/:id", async (req, res) => {
       const deletedProduct = await Product.findByIdAndDelete(req.params.id);
+      res.send(deletedProduct);
+    });
