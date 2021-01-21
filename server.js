@@ -31,3 +31,6 @@ const Product = mongoose.model(
         availableSizes: [String],
       })
     );
+
+    app.get("/api/products", async (req, res) => {
+      const products = await Product.find({});
