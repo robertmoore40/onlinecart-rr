@@ -36,3 +36,6 @@ const Product = mongoose.model(
       const products = await Product.find({});
       res.send(products);
     });
+
+    app.post("/api/products", async (req, res) => {
+      const newProduct = new Product(req.body);
