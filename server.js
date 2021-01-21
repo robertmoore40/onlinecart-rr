@@ -68,3 +68,9 @@ const Product = mongoose.model(
           count: Number,
         },
       ],
+    },
+    {
+      timestamps: true,
+    }
+  )
+);
