@@ -50,3 +50,7 @@ const Product = mongoose.model(
 
     const Order = mongoose.model(
       "order",
+      new mongoose.Schema(
+        {
+          _id: {
+            type: String,
