@@ -42,3 +42,6 @@ const Product = mongoose.model(
       const savedProduct = await newProduct.save();
       res.send(savedProduct);
     });
+
+    app.delete("/api/products/:id", async (req, res) => {
+      const deletedProduct = await Product.findByIdAndDelete(req.params.id);
