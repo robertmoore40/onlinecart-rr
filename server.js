@@ -64,3 +64,7 @@ const Product = mongoose.model(
         {
           _id: String,
           title: String,
+          price: Number,
+          count: Number,
+        },
+      ],
