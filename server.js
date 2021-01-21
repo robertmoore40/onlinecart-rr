@@ -60,3 +60,7 @@ const Product = mongoose.model(
       name: String,
       address: String,
       total: Number,
+      cartItems: [
+        {
+          _id: String,
+          title: String,
