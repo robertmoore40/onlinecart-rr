@@ -47,3 +47,6 @@ const Product = mongoose.model(
       const deletedProduct = await Product.findByIdAndDelete(req.params.id);
       res.send(deletedProduct);
     });
+
+    const Order = mongoose.model(
+      "order",
