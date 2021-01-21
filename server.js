@@ -54,3 +54,6 @@ const Product = mongoose.model(
         {
           _id: {
             type: String,
+            default: shortid.generate,
+      },
+      email: String,
