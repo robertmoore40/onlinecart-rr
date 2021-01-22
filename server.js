@@ -74,3 +74,6 @@ const Product = mongoose.model(
     }
   )
 );
+
+app.post("/api/orders", async (req, res) => {
+  if (
