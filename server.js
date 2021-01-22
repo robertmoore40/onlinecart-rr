@@ -96,3 +96,5 @@ app.get("/api/orders", async (req, res) => {
 
 app.delete("/api/orders/:id", async (req, res) => {
   const order = await Order.findByIdAndDelete(req.params.id);
+  res.send(order);
+});
