@@ -88,3 +88,6 @@ app.post("/api/orders", async (req, res) => {
     const order = await Order(req.body).save();
   res.send(order);
 });
+
+app.get("/api/orders", async (req, res) => {
+  const orders = await Order.find({});
