@@ -82,3 +82,6 @@ app.post("/api/orders", async (req, res) => {
     !req.body.address ||
     !req.body.total ||
     !req.body.cartItems
+    ) {
+      return res.send({ message: "Data is required." });
+    }
