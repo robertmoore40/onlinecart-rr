@@ -77,3 +77,5 @@ const Product = mongoose.model(
 
 app.post("/api/orders", async (req, res) => {
   if (
+    !req.body.name ||
+    !req.body.email ||
