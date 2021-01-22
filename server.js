@@ -85,3 +85,6 @@ app.post("/api/orders", async (req, res) => {
     ) {
       return res.send({ message: "Data is required." });
     }
+    const order = await Order(req.body).save();
+  res.send(order);
+});
